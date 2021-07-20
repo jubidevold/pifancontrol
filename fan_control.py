@@ -8,7 +8,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(14, GPIO.OUT)
 
-THRESHOLD_ON = 50
+THRESHOLD_ON = 55
 THRESHOLD_OFF = 45
 INTERVAL = 10 #seconds
 
