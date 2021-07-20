@@ -1,0 +1,7 @@
+[Unit]
+Description=Python Fan Control
+
+[Service]
+# Command to execute when the service is started
+ExecStart=/usr/bin/python /opt/pifancontrol/fan_control.py
+Environment=PYTHONUNBUFFERED=1
